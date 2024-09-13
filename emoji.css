@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.face
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: hotpink;
+    position: relative;
+    animation-name: face;
+    animation-duration: 4s;
+   
+}
+@keyframes face {
+   
+    0%
+    {
+        top: 0;
+        left: 0px;
+        transform: rotate(0);
+    }
+    50%
+    {
+        top: 0;
+        left: 75%;
+        transform: rotate(180deg);
+    }
+    100%
+    {
+        top: 0;
+        left: 0;
+        transform: rotate(0);
+    }
+}
+.eyebrowsl
+{
+    width: 40px;
+    height: 20px;
+    border-top: solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 59px;
+    
+}
+.eyel
+{
+    width: 50px;
+    height: 70px;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 54px;
+    animation-name: blink;
+}
+@keyframes blink {
+    0%
+    {
+
+    }
+}
+.eyeball
+{
+    width: 47px;
+    height: 56px;
+    background-color: #000;
+    border-radius: 50px;
+    position: absolute;
+    top: 12px;
+}
+.eyer
+{
+    width: 50px;
+    height: 70px;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    right: 57px;
+}
+.eyebrowsr
+{
+    width: 40px;
+    height: 20px;
+    border-top: solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    right:  59px;
+    
+}
+.eyeball
+{
+    width: 47px;
+    height: 56px;
+    background-color: #000;
+    border-radius: 50px;
+    position: absolute;
+    top: 12px;
+}
+.nose
+{
+    width: 10px;
+    height: 50px;
+    border: 1px black solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+    left: 143px;
+}
+.smile
+{
+    width: 100px;
+    height: 20px;
+    border-bottom: solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 65px;
+    left: 100px;
+}
